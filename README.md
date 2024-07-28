@@ -1,3 +1,57 @@
+---
+# - pre task docs
+사전과제에 대한 간단한 설명과 결과물을 정리합니다.
+
+---
+# 1. project initial
+```
+docker-compose -f docker-compose.locl.yml up --build
+* 사전데이터는, db/schema.sql에 insert문으로 작성되어 있습니다.
+
+0.0.0.0:8000/admin/
+0.0.0.0:8000/api/swagger/
+```
+
+# 2. db diagram
+![pre_task_diagram](https://github.com/user-attachments/assets/8dde09a0-c108-4f79-b382-206eb4c185ad)
+
+# 3. 주요 API 동작 결과물
+
+### 1) obtain jwt token
+<img width="871" alt="스크린샷 2024-07-28 오후 8 48 19" src="https://github.com/user-attachments/assets/ce99d910-efe8-417e-ba35-ee0c98417b0a">
+
+### 2) 연락처 리스트 조회
+<img width="868" alt="스크린샷 2024-07-28 오후 8 50 00" src="https://github.com/user-attachments/assets/d6af6122-3c6d-4594-b7bb-16e9ba8f5d35">
+
+### 3) 연락처 입력
+<img width="712" alt="스크린샷 2024-07-28 오후 8 54 41" src="https://github.com/user-attachments/assets/febd2255-1814-4a96-9a6b-100fee7d9ae1">
+
+
+### 4) 연락처 상세보기
+<img width="866" alt="스크린샷 2024-07-28 오후 8 51 47" src="https://github.com/user-attachments/assets/7cfc8962-cc5f-43ab-97b8-c01ed39de8c5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################################################################
+---
+
 # backend-pre-task
 
 키즈노트 BE개발 사전과제 repository입니다.
